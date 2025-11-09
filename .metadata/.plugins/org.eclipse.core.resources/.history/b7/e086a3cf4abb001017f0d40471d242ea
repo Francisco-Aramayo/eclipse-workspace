@@ -1,0 +1,25 @@
+package ar.edu.unlp.objetos.uno.ejercicio11;
+
+public class CuentaCorriente extends Cuenta {
+
+	// pueden extraer saldo aun sin tener saldo suficiente.
+	
+	/* SOLAMENTE si no supera el limite de saldo negativo
+	
+	*	limiteDescubierto = diferente en cada cuenta, lo negocia el 
+	*	cliente con el banco
+	*
+	*/
+	
+	// cuando se abre una cuenta corriente, su límite descubierto es 0
+	
+	private double limiteDescubierto;
+	
+	
+	public CuentaCorriente () {
+		this.limiteDescubierto = 0;
+	}
+	
+	
+	
+}

@@ -1,0 +1,16 @@
+package ar.edu.unlp.objetos.uno.ejercicio11;
+
+public class CajaDeAhorro extends Cuenta{
+
+	// solo puedo extraer y transferir cuando tengo fondos suficientes
+	
+	// costo adicional de 2% del monto en cada op (tener  en cuenta antes de 
+	// permitir una extracción o transferencia
+	
+	private double monto;
+	
+	// tengo que hacer un puedeExtraer, verificando saldo
+	
+	// si hay saldo a la transferencia añadirle el 2% del monto
+	
+}

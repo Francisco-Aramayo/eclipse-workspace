@@ -1,0 +1,10 @@
+package ar.edu.unlp.objetos.uno.ejercicio11;
+
+public class CajaDeAhorro extends Cuenta{
+
+	// solo puedo extraer y transferir cuando tengo fondos suficientes
+	
+	private double monto;
+	
+	
+}

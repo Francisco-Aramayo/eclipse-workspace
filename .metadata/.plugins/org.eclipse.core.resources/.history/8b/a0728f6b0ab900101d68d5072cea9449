@@ -1,0 +1,25 @@
+package ar.edu.unlp.objetos.uno.ejercicio2;
+
+public class Producto {
+	
+	private double peso;
+	private double precioPorKilo;
+	private String descripción;
+	
+	public Producto() {
+		
+	}
+	
+	public double getPrecio () {
+		return this.peso * this.precioPorKilo;
+	}
+	
+	public void setPrecioPorKilo (double precio) {
+		this.precioPorKilo = precio;
+	}
+	
+	public void setPeso (double peso) {
+		this.peso = peso;
+	}
+	
+}

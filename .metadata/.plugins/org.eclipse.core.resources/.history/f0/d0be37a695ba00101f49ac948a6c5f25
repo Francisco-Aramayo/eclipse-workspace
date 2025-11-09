@@ -1,0 +1,91 @@
+package ar.edu.unlp.objetos.uno.ejercicio8;
+
+import java.time.LocalDate;
+
+public class Mamifero {
+	
+	private String id;
+	private String especie;
+	private LocalDate fechaNacimiento;
+	private Mamifero padre;
+	private Mamifero madre;
+	
+	public void setIdentificador (String id) {
+		this.id = id;
+	}
+	public String getIdentificador () {
+		return this.id;
+	}
+	public void setEspecie (String especie) {
+		this.especie = especie;
+	}
+	public String getEspecie () {
+		return this.especie;
+	}
+	public void setFechaNacimiento (LocalDate fecha) {
+		this.fechaNacimiento = fecha;
+	}
+	public LocalDate getFechaNacimiento () {
+		return this.fechaNacimiento;
+	}
+	
+	
+	public void setPadre (Mamifero padre) {
+		this.padre = padre;
+	}
+	public Mamifero getPadre () {
+		return this.padre;
+	}
+	
+	public void setMadre (Mamifero madre) {
+		this.madre = madre;
+	}
+	public Mamifero getMadre () {
+		return this.madre;
+	}
+	
+	
+	
+	public void setAbueloPaterno (Mamifero mamifero) {
+		if this
+	}
+	
+	public Mamifero getAbueloPaterno () {
+		
+	}
+	
+	public void setAbuelaPaterno (Mamifero mamifero) {
+		
+	}
+	
+	public Mamifero getAbuelaPaterno () {
+		
+	}
+	
+	public void setAbueloMaterno (Mamifero mamifero) {
+		
+	}
+	
+	public Mamifero getAbueloMaterno () {
+		
+	}
+	
+	public void setAbuelaMaterno (Mamifero mamifero) {
+		
+	}
+	
+	public Mamifero getAbuelaMaterno () {
+		
+	}
+	
+	
+	
+	
+	
+	
+	// metodo a resolver
+	public boolean tieneComoAncestroA(Mamifero unMamifero) {
+		
+	}
+	
+}

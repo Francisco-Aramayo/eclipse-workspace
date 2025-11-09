@@ -1,0 +1,13 @@
+package ar.edu.unlp.objetos.uno.ejercicio2;
+import java.time.LocalDate;
+
+public class Ticket {
+	
+	private LocalDate fecha;
+	private int cantidadDeProductos;
+	private double precioTotal;
+	
+	public double impuesto () {
+		return this.precioTotal * 0.21;
+	}
+}

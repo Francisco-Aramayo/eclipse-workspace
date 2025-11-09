@@ -1,0 +1,40 @@
+package ar.edu.unlp.objetos.uno.ejercicio3;
+
+import java.time.LocalDate;
+import java.util.List;
+import java.util.LinkedList;
+
+public class Presupuesto {
+
+	private LocalDate fecha;
+	private String cliente;
+	private List<Item> productos;
+	
+	public Presupuesto (String cliente) {
+		this.fecha = LocalDate.now();
+		this.cliente = cliente;
+		this.productos = new LinkedList<>();
+	}
+	
+	
+	public void agregarItem (Item item) {
+		this.productos.add(item);
+	}
+	
+	public double calcularTotal () {
+		double sum = 0;
+		for (Item item : productos) {
+			sum += item.costo();
+		}
+		return sum;
+	}
+	
+	public LocalDate getFecha () {
+		return this.fecha;
+	}
+	
+	public String getCliente () {
+		return this.cliente;
+	}
+	
+}
