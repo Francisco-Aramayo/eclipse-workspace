@@ -26,23 +26,10 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
-			<item value="ar.edu.unlp.objetos.uno.ejercicio14"/>
-			<item value="ar.edu.unlp.objetos.uno.ejercicio13"/>
-			<item value="ar.edu.unlp.objetos.uno.ejercicio12"/>
-			<item value="ar.edu.unlp.objetos.uno.ejercicio11"/>
-			<item value="ar.edu.unlp.objetos.uno.ejercicio9"/>
-			<item value="ar.edu.unlp.objetos.uno.ejercicio8"/>
 		</list>
 		<list key="groupId">
-			<item value="ar.edu.unlp.objetos.uno"/>
 		</list>
 		<list key="artifactId">
-			<item value="ejercicio14"/>
-			<item value="ejercicio13"/>
-			<item value="ejercicio12"/>
-			<item value="ejercicio11"/>
-			<item value="ejercicio9"/>
-			<item value="ejercicio8"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
