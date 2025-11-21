@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="/home/fran/Escritorio/eclipse-workspace"/>
 			<item value="/home/fran/eclipse-workspace"/>
 		</list>
 		<list key="projectNameTemplate">
@@ -26,10 +27,13 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="ar.edu.unlp.objetos.uno.ejercicio17"/>
 		</list>
 		<list key="groupId">
+			<item value="ar.edu.unlp.objetos.uno"/>
 		</list>
 		<list key="artifactId">
+			<item value="ejercicio17"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
