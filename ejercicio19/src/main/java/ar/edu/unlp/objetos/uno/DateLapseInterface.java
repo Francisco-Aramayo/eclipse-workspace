@@ -1,4 +1,4 @@
-package ar.edu.unlp.objetos.uno.ejercicio17;
+package ar.edu.unlp.objetos.uno;
 
 import java.time.LocalDate;
 
@@ -11,5 +11,6 @@ public interface DateLapseInterface {
     // métodos de comportamiento
     int sizeInDays();
     boolean includesDate(LocalDate other);
-    public boolean overlapr (DateLapse anotherDateLapse);
+    boolean overlapse(DateLapseInterface other);
 }
+

@@ -1,4 +1,4 @@
-package ar.edu.unlp.objetos.uno.ejercicio17;
+package ar.edu.unlp.objetos.uno;
 
 import java.time.LocalDate;
 import java.time.temporal.ChronoUnit;
@@ -25,20 +25,27 @@ public class DateLapse implements DateLapseInterface {
 
     @Override
     public int sizeInDays(){
-        return (int) this.sizeInDays();
+        return (int) this.sizeInDays;
     }
 
     @Override 
     public boolean includesDate (LocalDate other) {
-        // debe calcular to internamente
-        LocalDate to = this.getTo();    // reutiliza metodo
+        LocalDate to = this.getTo();
         return !other.isBefore(this.from) && !other.isAfter(to);
     }
 
     @Override
-    public boolean overlapr(DateLapse anotherDateLapse) {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'overlapr'");
-    }
+    public boolean overlapse(DateLapseInterface other) {
+        LocalDate thisFrom = this.getFrom();
+        LocalDate thisTo   = this.getTo();
+        LocalDate otherFrom = other.getFrom();
+        LocalDate otherTo   = other.getTo();
 
+        // NO se solapan si uno termina antes de que el otro empiece
+        if (thisTo.isBefore(otherFrom) || otherTo.isBefore(thisFrom)) {
+            return false;
+        }
+        // en cualquier otro caso sí se solapan
+        return true;
+    }
 }
