@@ -20,14 +20,13 @@ public class EnvioInterUrbano extends Envio{
 	
 	@Override
 	public double calcularCosto() {
-	
-		double pesoGramos = super.getPeso();
+		// !!!!!!!
+		double pesoGramos = this.getPeso();
 		
-		double distanciaKm = this.distancia;
 		
-		double costoPorGramo = (distanciaKm < 100) ? 
+		double costoPorGramo = (this.distancia < 100) ? 
 				20.0 : 
-				(distanciaKm <= 500) ?
+				(this.distancia <= 500) ?
 						25.0 : 
 						30.0;
 		
