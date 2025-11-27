@@ -27,12 +27,14 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="ar.edu.unlp.objetos.uno.ejercicio21"/>
 			<item value="ar.edu.unlp.objetos.uno.ejercicio17"/>
 		</list>
 		<list key="groupId">
 			<item value="ar.edu.unlp.objetos.uno"/>
 		</list>
 		<list key="artifactId">
+			<item value="ejercicio21"/>
 			<item value="ejercicio17"/>
 		</list>
 		<list key="projectNameTemplate">
@@ -83,6 +85,7 @@
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="/home/fran/Escritorio/eclipse-workspace"/>
 			<item value="/home/fran/eclipse-workspace/ejercicio1"/>
 			<item value="/home/fran/Descargas/ejercicio1"/>
 		</list>
